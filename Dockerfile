@@ -14,7 +14,7 @@ RUN wget https://ffmpeg.org/releases/ffmpeg-4.3.2.tar.gz && \
     cd .. && \
     rm -r ffmpeg-4.3.2
 
-#ENTRYPOINT ["ffmpeg"]
+ENTRYPOINT ["ffmpeg"]
 
 
     
